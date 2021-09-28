@@ -53,32 +53,24 @@ function scheduledEvent() {
 
 // A function that tracks the time and changes the colors of the input field, grey in the past, red current, green future
 function textAreaColor() {
-    // var a = moment([input1]);
-    // var b = moment([input2]);
-    // a.diff(b, "days") + 1;
-    // var now = moment();
-    // var time = now.hour();
-    // var  timeOnPlanner = spanEl[i].textContent;
-    // var hour = 12;
+    var now = moment();
+    var time = now.hour();
     console.log(time);
     for (var i=0; i < spanEl.length; i++) {
         var  timeOnPlanner = spanEl[i].textContent;
         console.log(timeOnPlanner);
-        var now = moment();
-        var time = 15;
-        // var time = now.hour();
         console.log(time);
 
     $('span').each(function() {
 
         if (timeOnPlanner > time) {
-            $('span').next().addClass("future");
+            $('span').eq(i).next().removeClass("present past").addClass("future");
         }
-        else if (timeOnPlanner === time) {
-            $('span').next().addClass("present");
+        else if (timeOnPlanner == time) {
+            $('span').eq(i).next().removeClass("future past").addClass("present");
         }
         else {
-            $('span').next().addClass("past");
+            $('span').eq(i).next().removeClass("present future").addClass("past");
         }
         
 })}};

@@ -20,7 +20,7 @@ The website is fairly intuitive. The time blocks, from left to right, start with
 
 ## Links
 
-URL for deployed website: https://gallaghj13.github.io/Daily-Planner-App/ <br>
+URL for deployed website: https://gallaghj13.github.io/Daily-Planner-App/ \
 Github Repository: https://github.com/gallaghj13/Daily-Planner-App
 
- Need Picture
+![alt-text](./assets/Work-Day-Scheduler.gif)

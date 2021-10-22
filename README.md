@@ -8,6 +8,12 @@ I was tasked with adding some html elements, linking them to provided css, and w
 
 The website is fairly intuitive. The time blocks, from left to right, start with a specified time, then an area to write text, and a save button on the end. The current day is also listed in the header.
 
+Picture 1:
+![alt-text](./assets/Picture1.png)
+
+Picture 2:
+![alt-text](./assets/Picture2.png)
+
 ## Credits
 
 - Tutor: Aaron Centeno
@@ -17,6 +23,10 @@ The website is fairly intuitive. The time blocks, from left to right, start with
 - Stack Overflow
 - Bootstrap
 - jQuery API Documentation
+
+## License
+
+- MIT
 
 ## Links
 
